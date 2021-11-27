@@ -1,0 +1,39 @@
+body {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.container {
+	width: 50vh;
+	border-radius: 5px;
+	border: 0.5px solid lightseagreen;
+}
+.login {
+	height: 50vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+input {
+	width: 50%;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+.loginBtn {
+	width: 60%;
+	padding: 10px;
+	background-color: rgb(32, 165, 159);
+	color: whitesmoke;
+	border: none;
+	border-radius: 5px;
+}
+.username {
+	font-weight: bold;
+	color: lightseagreen;
+	position: absolute;
+	top: 15px;
+	right: 20px;
+}
